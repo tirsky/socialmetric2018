@@ -8,5 +8,5 @@ class BaseConfig(object):
     SECRET_KEY = 'socialmetric'
     DEBUG = True
     BCRYPT_LOG_ROUNDS = 13
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://www:Chi4moog@/socialmetric?host=localhost'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://www:[pass]@/socialmetric?host=localhost'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
